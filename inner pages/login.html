@@ -20,25 +20,25 @@
       referrerpolicy="no-referrer"
     />
     <!-- Favicons -->
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Link Cooperative | Cash Advance</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Link Coop | Login</title>
   </head>
-  <body>
+  <body class="bg-light">
     <!-- ################### NavBar ############### -->
     <nav
       id="navbar"
       class="navbar navbar-expand-md navbar-light bg-light fixed-top"
     >
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="./image/logo2.png" alt="" height="50" />
+        <a class="navbar-brand" href="../index.html">
+          <img src="../image/logo2.png" alt="" height="50" />
           <span class="fs-3 fw-bold"> Link Coop</span>
         </a>
 
@@ -52,7 +52,7 @@
         </button>
         <div id="mainMenu" class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto">
-            <li><a class="nav-link" href="index.html#hero">Home</a></li>
+            <li><a class="nav-link" href="../index.html">Home</a></li>
             <li><a class="nav-link" href="about.html#about">About Us</a></li>
             <li class="dropdown">
               <a
@@ -105,8 +105,10 @@
                 </li>
               </ul>
             </li>
-            <li><a class="nav-link" href="login.html#login">Login</a></li>
-            <li><a class="nav-link" href="signup.html">Sign Up</a></li>
+            <li>
+              <a class="nav-link active" href="login.html#login">Login</a>
+            </li>
+            <li><a class="nav-link" href="signup.html#signup">Sign Up</a></li>
             <li>
               <a class="nav-link" href="index.html#contact">Contact Us</a>
             </li>
@@ -124,84 +126,54 @@
       </div>
     </nav>
 
-    <!-- LOAN BODY -->
+    <!-- LOGIN BODY -->
 
-    <section id="cash" class="loan">
-      <div class="container">
+    <section id="login" class="form my-4 mx-5">
+      <div class="container signup no-gutters">
         <div class="row">
-          <div class="col-5">
-            <h1>Cash Advance</h1>
-            <p>
-              Link Coop cash advances are the perfect solution for quickly and
-              easily getting quick access to money, when you need it most. With
-              a Loan from Link Coop, you can borrow up to 10% of your savings
-              account balance.
-            </p>
+          <div class="col-lg-5"></div>
+          <img src="../image/login.png" class="image-fluid" alt="" />
+        </div>
+        <div class="col-md-7 px-5 pt-5">
+          <img src="../image/logo2.png" class="signuplogo" alt="" />
+          <h4 class="py-3">Sign in to your Account</h4>
+          <form>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="form-control my-3 p-2"
+                />
+              </div>
+            </div>
 
-            <br />
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input
+                  type="password"
+                  placeholder="******"
+                  class="form-control my-3 p-2"
+                />
+              </div>
+            </div>
 
-            <a href="signup.html">
-              <button class="loan-btn">Become a Member</button></a
-            >
-          </div>
-          <div class="col-6"></div>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <a href="user.html"
+                  ><button type="button" class="btn1 mt-3 mb-5">
+                    Login
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <a href="#">Forgot Password</a>
+            <p>Dont have an account? <a href="signup.html">Register here</a></p>
+          </form>
         </div>
       </div>
     </section>
-
-    <div class="loan-main py-5">
-      <div class="container">
-        <div class="row">
-          <div>
-            <h2>Qualifications</h2>
-            <ul>
-              <li>Current member of Link Cooperative.</li>
-              <li>
-                Co-borrower Qualifications
-                <ul>
-                  <li>Must have a regular source of income</li>
-                  <li>Must agree to co-borrow the loan</li>
-                </ul>
-              </li>
-            </ul>
-            <br /><br />
-
-            <h2>Requirements</h2>
-
-            <ul>
-              <li>
-                Borrower:
-                <ul>
-                  <li>Updated and latest Pay Slip</li>
-                  <li>Valid ID</li>
-                  <li>Latest Proof of Billing</li>
-                  <li>SSS or TIN Number must be provided</li>
-                </ul>
-              </li>
-            </ul>
-            <br /><br />
-
-            <h2>Co-borrower:</h2>
-
-            <i>Any Two (2) of the following government-issued IDs</i>
-            <ul>
-              <li>SSS</li>
-              <li>Drivers License</li>
-              <li>TIN</li>
-              <li>Passport</li>
-              <li>UMID</li>
-              <li>PRC</li>
-            </ul>
-
-            <br /><br /><br />
-            <p>
-              Note:NOTE: Additional requirements may be required depending on
-              the loan amount applied
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- ################### Footer ############### -->
     <footer class="footer py-3">
@@ -223,6 +195,7 @@
         </div>
       </div>
     </footer>
+
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

@@ -20,25 +20,25 @@
       referrerpolicy="no-referrer"
     />
     <!-- Favicons -->
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Link Cooperative | Calamity Loan</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Link Coop | Sign Up</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- ################### NavBar ############### -->
     <nav
       id="navbar"
       class="navbar navbar-expand-md navbar-light bg-light fixed-top"
     >
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="./image/logo2.png" alt="" height="50" />
+        <a class="navbar-brand" href="../index.html">
+          <img src="../image/logo2.png" alt="" height="50" />
           <span class="fs-3 fw-bold"> Link Coop</span>
         </a>
 
@@ -52,7 +52,7 @@
         </button>
         <div id="mainMenu" class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto">
-            <li><a class="nav-link" href="index.html#hero">Home</a></li>
+            <li><a class="nav-link" href="../index.html">Home</a></li>
             <li><a class="nav-link" href="about.html#about">About Us</a></li>
             <li class="dropdown">
               <a
@@ -106,9 +106,9 @@
               </ul>
             </li>
             <li><a class="nav-link" href="login.html#login">Login</a></li>
-            <li><a class="nav-link" href="signup.html">Sign Up</a></li>
+            <li><a class="nav-link" href="signup.html#signup">Sign Up</a></li>
             <li>
-              <a class="nav-link" href="index.html#contact">Contact Us</a>
+              <a class="nav-link" href="../index.html#contact">Contact Us</a>
             </li>
             <li class="dropdown">
               <a
@@ -124,83 +124,87 @@
       </div>
     </nav>
 
-    <!-- LOAN BODY -->
-
-    <section id="calamity" class="loan">
+    <!-- BODY -->
+    <section id="signup">
       <div class="container">
         <div class="row">
-          <div class="col-5">
-            <h1>Calamity Loan</h1>
-            <p>
-              The Link Coop Calamity Loan is a financial aid to assist members
-              who are affected by calamities. Feeding the homeless, alleviating
-              poverty and building bridges of hopes will go hand in hand with
-              the need to secure their livelihoods and good health.
+          <div class="col text-center">
+            <h1>Create a Link Coop Account</h1>
+            <h5 class="mb-5">
+              Having a Link Coop account will help you manage your loans easily.
+            </h5>
+            <p class="col-md-6 m-auto">
+              <button class="btn btn-primary btn-fb">
+                Continue with Facebook
+              </button>
             </p>
-            <br />
+            <div class="seperator-text mb-3">
+              <span>or</span>
+            </div>
 
-            <a href="signup.html">
-              <button class="loan-btn">Become a Member</button></a
-            >
+            <h4>Sign-up with your Mobile Number</h4>
+            <form action="">
+              <div class="firstname-form mt-3">
+                <label for="firstname">First Name</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  class="form-control"
+                  name="firstName"
+                />
+              </div>
+              <div class="firstname-form mt-3">
+                <label for="firstname">Last Name</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  class="form-control"
+                  name="firstName"
+                />
+              </div>
+              <div class="firstname-form mt-3">
+                <label for="mnumber">Mobile Number</label>
+                <input
+                  type="number"
+                  id="mnumber"
+                  class="form-control"
+                  name="mnumber"
+                  placeholder="09XXXXXXXXX"
+                />
+              </div>
+              <div class="firstname-form mt-3">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  name="email"
+                />
+              </div>
+              <div class="firstname-form mt-3">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control"
+                  name="password"
+                />
+              </div>
+              <hr />
+              <p class="text-center">
+                By clicking Agree and Continue, I have read and accepted Link
+                Coop's Terms and Conditions and Privacy Policy
+              </p>
+              <button class="btn btn-success btn-full-width btn-lg">
+                Agree and Continue
+              </button>
+            </form>
           </div>
-          <div class="col-6"></div>
         </div>
       </div>
     </section>
 
-    <div class="loan-main py-5">
-      <div class="container">
-        <div class="row">
-          <div>
-            <h2>Qualifications</h2>
-            <ul>
-              <li>Current member of Link Cooperative.</li>
-              <li>
-                Co-borrower Qualifications
-                <ul>
-                  <li>Must have a regular source of income</li>
-                  <li>Must agree to co-borrow the loan</li>
-                </ul>
-              </li>
-            </ul>
-            <br /><br />
-
-            <h2>Requirements</h2>
-
-            <ul>
-              <li>
-                Borrower:
-                <ul>
-                  <li>Updated and latest Pay Slip</li>
-                  <li>Valid ID</li>
-                  <li>Latest Proof of Billing</li>
-                  <li>SSS or TIN Number must be provided</li>
-                </ul>
-              </li>
-            </ul>
-            <br /><br />
-
-            <h2>Co-borrower:</h2>
-
-            <i>Any Two (2) of the following government-issued IDs</i>
-            <ul>
-              <li>SSS</li>
-              <li>Drivers License</li>
-              <li>TIN</li>
-              <li>Passport</li>
-              <li>UMID</li>
-              <li>PRC</li>
-            </ul>
-
-            <br /><br /><br />
-            <p>
-              Note:NOTE: Additional requirements may be required depending on
-              the loan amount applied
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- ------------------------------------- HANGANG DITO -------------------------------- -->
 
     <!-- ################### Footer ############### -->
     <footer class="footer py-3">
